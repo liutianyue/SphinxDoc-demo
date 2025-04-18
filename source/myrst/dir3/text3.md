@@ -3,6 +3,9 @@ text3标题
 =============
 
 因此递归过程，最重要的就是查看能不能讲原本的问题分解为更小的子问题，这是使用递归的关键。
+Vs Vitepress：MkDocs生成速度更快，配置更简单，适合Python技术栈；Vitepress更适合Vue生态 
+Vs Docusaurus：Docusaurus更适合复杂多版本文档，但MkDocs更轻量 
+通过上述配置和扩展，MkDocs + Material主题可以满足从个人博客到企业级文档的需求，兼具美观与功能性。具体案例可参考PaddleOCR的多版本文档 
 
 ## 二级标题
 
