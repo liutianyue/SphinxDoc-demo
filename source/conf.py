@@ -40,11 +40,21 @@ release = 'v1'
 # ones.
 extensions = [
     'recommonmark',
-    'sphinx_markdown_tables'
+    'sphinx_markdown_tables',
+    'sphinx_multiversion'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
+
+html_sidebars = {
+    '**': [
+        'versioning.html',
+    ],
+}
+
+# 指定哪个分支为 lastest 版本
+smv_latest_version = 'master'
 
 # The suffix(es) of source filenames.
 # You can specify multiple suffix as a list of string:
